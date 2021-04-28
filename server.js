@@ -3,7 +3,7 @@ const express = require('express')
 var cors = require('cors')
 const db = require('./queries')
 const app = express()
-const port = 5000
+const port = 80
 
 app.use(cors()) //enables cors requests for server
 app.use(express.json()) //enables json requests
